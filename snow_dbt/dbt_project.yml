@@ -19,3 +19,5 @@ models:
   snow_dbt:
     staging:
       +materialized: view
+    marts:
+      +materialized: table
