@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: payment_app
+    tables:
+      - name: payment
+        database: raw
+        schema: payment_app
+        tables:
+          - transactions
